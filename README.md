@@ -74,4 +74,3 @@ http://localhost:8000/register.php
 
 
 =======
->>>>>>> 6c33a1c4a2e829a0ad58ed3bcb87d7a1441bbae8
