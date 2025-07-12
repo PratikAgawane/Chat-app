@@ -1,11 +1,35 @@
-body {
-    font-family: Arial;
-    padding: 20px;
-}
 #chat-box {
-    border: 1px solid #ccc;
-    height: 300px;
-    overflow-y: scroll;
-    padding: 10px;
+    max-height: calc(100vh - 130px);
+    scroll-behavior: smooth;
+    overflow-y: auto;
+}
+
+.chat-message {
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-message .meta {
+    font-size: 0.75rem;
+    color: gray;
+}
+
+.chat-bubble {
+    padding: 10px 15px;
+    border-radius: 20px;
+    max-width: 60%;
+    word-wrap: break-word;
+}
+
+.chat-bubble.sent {
+    background-color: #d1e7dd;
+    align-self: flex-end;
+    border-bottom-right-radius: 0;
+}
+
+.chat-bubble.received {
+    background-color: #e2e3e5;
+    align-self: flex-start;
+    border-bottom-left-radius: 0;
 }
