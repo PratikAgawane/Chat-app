@@ -50,23 +50,3 @@ chat-app/
 git clone https://github.com/your-username/real-time-chat-app.git
 cd real-time-chat-app
 
-###2. Install dependencies
-
-composer install
-
-###3. Import MySQL DB
-Use dump.sql in phpMyAdmin or CLI:
-CREATE DATABASE chat_app;
-USE chat_app;
--- then paste contents of dump.sql
-
-###4. Start WebSocket Server
-php websocket/server.php
-
-###5. Start PHP Server
-php -S localhost:8000 -t public
-
-###6. Access in Browser
-http://localhost:8000/register.php
-
-
