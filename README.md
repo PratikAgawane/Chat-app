@@ -50,6 +50,7 @@ chat-app/
 git clone https://github.com/your-username/real-time-chat-app.git
 cd real-time-chat-app
 
+<<<<<<< HEAD
 
 
 ### 2. Install dependencies
@@ -72,3 +73,5 @@ php -S localhost:8000 -t public
 http://localhost:8000/register.php
 
 
+=======
+>>>>>>> 6c33a1c4a2e829a0ad58ed3bcb87d7a1441bbae8
