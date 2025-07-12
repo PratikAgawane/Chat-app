@@ -12,6 +12,7 @@
         <header class="py-3 px-4 bg-dark text-white d-flex justify-content-between align-items-center">
             <h4 class="m-0">Real-Time Chat</h4>
             <span>👋 Welcome, <?= $_SESSION['username'] ?>!</span>
+            <a href="logout.php" class="btn btn-outline-light btn-sm">Logout</a>
         </header>
 
         <div id="chat-box" class="flex-grow-1 overflow-auto px-4 py-3 bg-white border-start border-end"></div>
